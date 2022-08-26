@@ -1,0 +1,252 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body * {
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin-inline: auto;
+    margin-block: 1rem;
+    padding-inline: 2rem;
+}
+
+#banner-button {
+    cursor: pointer;
+}
+
+#banner-button:hover {
+    background-color: #ff6464ba;
+}
+
+.hamburger {
+    display: none;
+}
+
+.home-header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-block: 30px;
+}
+
+.home-ul {
+    display: flex;
+}
+
+.active {
+    color: #FF6464 !important;
+}
+
+.home-ul>a {
+    display: inline;
+    padding: 0 15px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sect-one {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    /* padding: 70px 190px; */
+    padding-block: 70px;
+}
+
+.sect-one>div:nth-child(1) {
+    width: 50%;
+    padding: 70px 0;
+}
+
+.sect-one>div:nth-child(2) {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-head {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+}
+
+.sect-one div>p {
+    margin: 30px 0;
+}
+
+.sect-one div>button {
+    background: #FF6464;
+    border-style: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.prof-img {
+    width: 270px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.sect-two{
+    background-color: rgb(208, 243, 243);
+    padding: 70px 190px;
+    height: 500px;
+}
+.sect-two_div{
+    display: flex;
+    justify-content: space-between;
+}
+.sect-two-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.sect-two-wrapper > div:nth-child(1){
+    background-color: antiquewhite;
+    width: 43%;
+    padding: 20px 27px;
+    border-radius: 4px;
+    height: 300px;
+
+}
+.sect-two-wrapper > div:nth-child(2){
+    background-color: antiquewhite;
+    width: 43%;
+    padding: 20px 27px;
+    border-radius: 4px;
+}
+.sect-two-date p{ 
+   margin: 0%;
+}
+.sect-two-date p:nth-child(even){
+    padding: 0px 25px;
+}
+
+.sect-two-date{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.sect-two_div p:nth-child(2){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    margin: 0%;
+}
+.sect-two_div p:nth-child(1){
+    font-size: 22px;
+}
+.sect-two-wrapper h3{
+    font-size: 26px;
+    font-weight:700px;
+    line-height: 38px;
+    margin: 0%;
+}
+.sect-three {
+    padding-block: 70px;
+}
+
+.sect-three>p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+}
+
+.sect-three>div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 20px 0;
+}
+
+.sect-three>div>div:nth-child(1) {
+    width: auto;
+}
+
+.sect-three>div>div:nth-child(2) {
+    margin-inline-start: 2rem;
+    flex-grow: 1;
+    width: auto;
+}
+
+.sect-three-date {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.sect-three>div h5 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    margin: 0;
+}
+
+.sect-three>div p {
+    margin: 0;
+}
+
+.sect-three-date>p:nth-child(1) {
+    background: #142850;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 0px 13px;
+    margin-right: 20px;
+}
+
+.sect-three-date>p:nth-child(2) {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.sect-three-img{
+    width: 100%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.footer-icons {
+    margin: 0 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.footer p {
+    margin-top: 1rem;
+}
